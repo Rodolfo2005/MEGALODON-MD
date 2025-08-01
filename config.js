@@ -13,7 +13,7 @@ module.exports = {
     CHATBOT: getConfig("CHATBOT") || "on",
     //chatbot on/off
   
-    SESSION_ID: process.env.SESSION_ID || "MEGALODON~MD~W55QgQgI#6smMVJJKsIFNqRCNltmVeTsKSsG-1OeyQIY-zpEoWBs",  // Your bot's session ID (keep it secure)
+    SESSION_ID: process.env.SESSION_ID "MEGALODON~MD~L5BECCIC#00nlzpNA6lfboBYz6gn8MaK5dGgj8jri4h3fta8RShc",  // Your bot's session ID (keep it secure)
     PREFIX: getConfig("PREFIX") || "+",  // Command prefix (e.g., "., / ! * - +")
     BOT_NAME: process.env.BOT_NAME || getConfig("BOT_NAME") || "DODO_PDG TMO",  // Bot's display name
     MODE: process.env.MODE || "private",        // Bot mode: public/private/group/inbox
@@ -33,7 +33,7 @@ module.exports = {
     // ===== REACTION & STICKER SETTINGS =====
     AUTO_REACT: process.env.AUTO_REACT || "false",              // Auto-react to messages?
     CUSTOM_REACT: process.env.CUSTOM_REACT || "false",          // Use custom emoji reactions?
-    CUSTOM_REACT_EMOJIS: process.env.CUSTOM_REACT_EMOJIS || "💝,💖,💗,❤️‍🩹,❤️,🧡,💛,💚,💙,💜,🤎,🖤,🤍",  // Custom reaction emojis
+    CUSTOM_REACT_EMOJIS: process.env.CUSTOM_REACT_EMOJIS || "🖤",  // Custom reaction emojis
     STICKER_NAME: process.env.STICKER_NAME || "DODO_PDG TMO",     // Sticker pack name
 
     
